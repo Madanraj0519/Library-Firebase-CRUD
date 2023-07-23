@@ -1,0 +1,129 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 70px;
+  background-color: #e0dfdf;
+}
+
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.available{
+  background: rgb(16, 200, 16);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.not-available{
+  background: rgb(234, 55, 55);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+span:active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.update-button-container {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+  background-color: #207d92d5;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover{
+  transform: scale(1.05);
+  transition-duration: 200ms;
+}
+
+span:hover{
+  transform: scale(1.05);
+  transition-duration: 200ms;
+}
+
+
+/* table */
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.edit{
+  background: gray;
+  margin-right: 3px;
+}
+
+.delete{
+  background: rgb(234, 55, 55);
+  margin-left: 3px;
+}
+
+thead th {
+  background-color: #f2f2f2;
+}
